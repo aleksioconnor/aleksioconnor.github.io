@@ -104,6 +104,7 @@
         }
         var isMobile = checkForMobile();
         if (isMobile) {
+            $('.title').html('tap for dogs');
             $('body').on("tap", function () {
                 moreDogs();
             })
